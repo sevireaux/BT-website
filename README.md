@@ -1,5 +1,10 @@
-<<<<<<< HEAD
+
+
 # Bean There Coffee Shop Website
+
+# BT Website
+Developed by **John David D. Corpuz**
+
 
 ## 📌 Project Overview
 This project details the design and development of the official website for **Bean There Coffee Shop**, a local café in Capiz known for its perfectly brewed coffee and delicious snacks. The website is developed as a student project to showcase a visually appealing, user-friendly, and responsive platform that highlights the shop’s unique offerings and vintage-inspired ambiance.
