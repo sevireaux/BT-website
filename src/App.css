@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 
 @import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Kavivanar&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap');
 @font-face {
@@ -12,6 +13,12 @@ body {
     margin: 0;
     padding: 0;
     background: #101828;
+=======
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Kavivanar&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap');
+body {
+    margin: 0;
+    padding: 0;
+>>>>>>> 13394e2ce7fb99818a70df4f1da1f372b0fe65ed
 }
 .root {
     width: 100%;
@@ -29,6 +36,7 @@ body {
     padding-left: 10%;
     padding-right: 10%;
     box-sizing: border-box;
+<<<<<<< HEAD
 }
 .h1-text {
     font-family: 'novecento';
@@ -45,4 +53,6 @@ body {
     font-style: normal;
     text-align: left;
     color: #f1f1f1;
+=======
+>>>>>>> 13394e2ce7fb99818a70df4f1da1f372b0fe65ed
 }

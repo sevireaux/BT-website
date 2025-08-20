@@ -1,5 +1,6 @@
 import React from 'react';
 import './header.scss';
+<<<<<<< HEAD
 import { motion } from 'framer-motion';
 import { images } from '../../../constants';
 
@@ -24,6 +25,14 @@ const Header = () => {
       <img src={images.hero1} alt='Hero' className='hero'/>
   </motion.div>
   </div>
+=======
+
+const Header = () => {
+  return (
+    <div>
+      
+    </div>
+>>>>>>> 13394e2ce7fb99818a70df4f1da1f372b0fe65ed
   )
 }
 
