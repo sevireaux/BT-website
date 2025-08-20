@@ -40,5 +40,14 @@
   },
   "devDependencies": {
     "gh-pages": "^6.3.0"
-  }
+  },
+  "author": 
+  {
+  "name": "bt-website",
+  "version": "1.0.0",
+  "author": "John David D. Corpuz",
+  "license": "MIT"
+}
+
+  
 }
