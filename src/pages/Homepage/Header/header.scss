@@ -1,0 +1,111 @@
+.app__header {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+    justify-content: space-between;
+    .app__header-info {
+        width: 33.333%;
+        display: flex;
+        align-items: flex-start;
+        flex-direction: column;
+        justify-content: flex-end;
+        gap: 2rem;
+        .app__content {
+            display: flex;
+            width: 100%;
+            flex-direction: column;
+            align-items: flex-start;
+            justify-content: center;
+
+            p {
+                color: #b3b3b3;
+            }
+            
+        }
+
+        .app__order {
+            width: 189px;
+            height: 46px;
+            border-radius: 23px;
+            background-color: #bf5c09;
+            color: #ffffff;
+            font-family: 'novecento';
+            font-size: 24px;
+            text-align: center;
+        }
+        .app__order:hover {
+            background-color: #ffffff;
+            color: #101828;
+            transition: 0.75s ease-in-out;
+        }
+    }
+    .app__hero {
+        width: 44.38%;
+
+        .hero {
+            width: 100%;
+        }
+    }
+    @media screen and (max-width: 1200px) {
+        .app__header-info {
+            width: 40%;
+            .app__content {
+                .headline {
+                    font-size: 3rem;
+                }
+                p {
+                    font-size: 0.75rem;
+                }
+            }
+        }
+
+        .app__hero {
+            width: 50%;
+        }
+        
+    }
+
+    @media screen and (max-width: 900px) {
+
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        gap: 4rem;
+        padding-top: 10%;
+
+        .app__header-info {
+            width: 90%;
+            align-items: center;
+            gap: 3rem;
+
+            .app__content {
+                p {
+                    display: none;
+                }
+                .headline {
+                    text-align: center;
+                    font-size: 3rem;
+                }
+            }
+        }
+        .app__hero {
+            width: 90%;
+        }
+
+    }
+    @media screen and (max-width: 400px) {
+        .app__header-info {
+            .app__content {
+                .headline {
+                    font-size: 2rem;
+                }
+            }
+        }
+        .app__hero {
+            width: 100%;
+        }
+    }
+
+}

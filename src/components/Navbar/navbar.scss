@@ -6,7 +6,8 @@
     align-items: center;
     backdrop-filter: blur(4px);
     position: fixed;
-    background: #f8e6cf;
+    background: #F9F9F9;
+    box-shadow: 0 0 35.4px #FFFFFF;
     z-index: 2;
     padding-left: 10%;
     padding-right: 10%;
@@ -103,12 +104,12 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    background: #f8e6cf;
+    background: #101828;
     
     svg {
         width: 70%;
         height: 70%;
-        color: gray;
+        color: #F9F9F9;
 
     }
 
@@ -124,15 +125,16 @@
         justify-content: flex-end;
         align-items: flex-end;
         flex-direction: column;
-        background: #f8e6cf;
+        background: #FFFFFF;
         background-size: cover;
         background-repeat: repeat;
-        box-shadow: 0 0 20px #291803;
+        box-shadow: 0 0 35.4px #FFFFFF;
 
         svg {
             width: 35px;
             height: 35px;
             margin: 0.5rem 1rem;
+            color: #101828;
         }
         ul {
             list-style-type: none;
